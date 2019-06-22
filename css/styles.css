@@ -42,7 +42,7 @@
   opacity: 0;
 }
 
-/*.checkbox__state {
+.checkbox__state {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,8 @@
   transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   border-radius: 0;
 }
-input:checked ~ .checkbox__state {
+
+/*input:checked ~ .checkbox__state {
   -webkit-transform: rotate(400deg);
           transform: rotate(400deg);
   border: 6px solid transparent;
