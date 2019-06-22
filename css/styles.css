@@ -60,13 +60,13 @@ input:checked~.checkbox__state {
   border-radius: 50%;
 }
 
-/*input:checked ~ .checkbox__state .checkbox__checked {
+input:checked~.checkbox__state .checkbox__checked {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   opacity: 1;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
