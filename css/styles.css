@@ -24,10 +24,11 @@
   cursor: pointer;
 }
 
-/*.checkbox input {
+.checkbox input {
   display: none;
 }
-.checkbox__checked {
+
+/*.checkbox__checked {
   display: #2ECC40;
   height: 35px;
   width: 23.3333333333px;
