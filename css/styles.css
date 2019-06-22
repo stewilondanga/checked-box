@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,54 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+.checkbox input {
+  display: none;
+}
+.checkbox__checked {
+  display: #2ECC40;
+  height: 35px;
+  width: 23.3333333333px;
+  border: 6px solid #2ECC40;
+  border-top: 0;
+  border-left: 0;
+  transition-delay: .7s;
+  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+}
+.checkbox__state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: 6px solid black;
+  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-radius: 0;
+}
+input:checked ~ .checkbox__state {
+  -webkit-transform: rotate(400deg);
+          transform: rotate(400deg);
+  border: 6px solid transparent;
+  border-radius: 50%;
+}
+input:checked ~ .checkbox__state .checkbox__checked {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
 }
 
 .containers {
