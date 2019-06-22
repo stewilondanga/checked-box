@@ -20,10 +20,11 @@
   height: 100vh;
 }
 
-/*.checkbox {
+.checkbox {
   cursor: pointer;
 }
-.checkbox input {
+
+/*.checkbox input {
   display: none;
 }
 .checkbox__checked {
