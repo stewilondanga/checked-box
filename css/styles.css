@@ -53,13 +53,14 @@
   border-radius: 0;
 }
 
-/*input:checked ~ .checkbox__state {
+input:checked~.checkbox__state {
   -webkit-transform: rotate(400deg);
-          transform: rotate(400deg);
+  transform: rotate(400deg);
   border: 6px solid transparent;
   border-radius: 50%;
 }
-input:checked ~ .checkbox__state .checkbox__checked {
+
+/*input:checked ~ .checkbox__state .checkbox__checked {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 1;
